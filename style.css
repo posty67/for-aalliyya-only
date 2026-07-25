@@ -1,1 +1,13 @@
+const title = document.querySelector("h1");
 
+setInterval(() => {
+
+title.style.opacity = "0.8";
+
+setTimeout(() => {
+
+title.style.opacity = "1";
+
+},500);
+
+},1000);
